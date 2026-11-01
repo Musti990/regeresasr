@@ -105,7 +105,7 @@ exports.handler = async () => {
           type: 3,
           required: false,
           choices: [
-            { name: 'Club Regresar CF', value: '1' },
+            { name: 'Regresar CF', value: '1' },
             { name: 'Calcio Strada 2', value: '2' },
             { name: 'Beide', value: 'beide' },
           ],
@@ -122,7 +122,7 @@ exports.handler = async () => {
           type: 3,
           required: false,
           choices: [
-            { name: 'Club Regresar CF', value: '1' },
+            { name: 'Regresar CF', value: '1' },
             { name: 'Calcio Strada 2', value: '2' },
             { name: 'Beide', value: 'beide' },
           ],

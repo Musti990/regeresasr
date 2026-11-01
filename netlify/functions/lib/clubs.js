@@ -3,7 +3,7 @@ const { getStore } = require('@netlify/blobs');
 
 // Die beiden überwachten Clubs (team = Kürzel für /session team:1 bzw. team:2)
 const CLUBS = [
-  { clubId: '22829', label: 'Club Regresar CF', team: '1', brand: 'regresar' }, // eigenes Design (ohne Calcio-Strada-Grafiken)
+  { clubId: '22829', label: 'Regresar CF', team: '1', brand: 'regresar' }, // eigenes Design (ohne Calcio-Strada-Grafiken)
   { clubId: '20998', label: 'Calcio Strada 2', team: '2' },
 ];
 

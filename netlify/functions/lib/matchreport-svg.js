@@ -33,7 +33,7 @@ const BRANDS = {
   calcio: { key: 'calcio', name: 'CALCIO STRADA', short: 'CS', stripe: [VERDE, BIANCO, ROSSO], slogan: true },
   regresar: {
     key: 'regresar',
-    name: 'CLUB REGRESAR CF',
+    name: 'REGRESAR CF',
     short: 'RCF',
     stripe: ['#b3261e', '#e6b422', '#b3261e'], // Rot-Gold wie im Wappen
     accent: '#e0582f', // warmes Rot-Orange aus dem Wappen

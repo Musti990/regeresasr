@@ -106,7 +106,8 @@ async function buildReportData(match, club, { matchType } = {}) {
 
   return {
     brand: club.brand || '',
-    homeName: match.clubs[homeId]?.details?.name || match.clubs[homeId]?.name || club.label,
+    // Bei eigenem Design (z. B. Regresar CF) immer den eigenen Namen statt des EA-Namens anzeigen
+    homeName: club.brand ? club.label : match.clubs[homeId]?.details?.name || match.clubs[homeId]?.name || club.label,
     awayName: match.clubs[awayId]?.details?.name || match.clubs[awayId]?.name || 'Gegner',
     homeGoals: match.clubs[homeId]?.score ?? match.clubs[homeId]?.goals ?? '0',
     awayGoals: match.clubs[awayId]?.score ?? match.clubs[awayId]?.goals ?? '0',
